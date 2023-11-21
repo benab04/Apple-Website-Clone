@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+  .large-card{
+    /* background-color: #FAFAFA; */
+    background-repeat:no-repeat;
+    background-size: contain;
+    height:580px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    margin-bottom:20px;
+    line-height: 1;
+  }
+  .product-name{
+    font-size:53px;
+    font-weight:700 !important;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    margin:60px 0 0px 0;
+  }
+  .product-update{
+    font-size:28px;
+    font-weight: 600;
+    margin:10px 0 20px 0;
+  }
+  .product-options{
+    display: flex;
+    justify-content: space-between;
+    width:200px;
+    
+    margin:0;
+}
+.product-options a{
+    font-size:20px;
+    color:#3988D6 !important;
+    text-decoration: none !important;
+}
+.product-options h4{
+    margin:0;
+}

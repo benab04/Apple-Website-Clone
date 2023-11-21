@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+
+}
+.header{
+  height:44px;
+  width:100%;
+  background-color: #181818;
+  color: #CECECF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  z-index:9999999;
+}
+.navbar{
+  width:1050px;
+  background-color: #181818;
+  color: #CECECF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around !important;
+  align-items: center;
+}
+.navbar a{
+  color:#CECECF;
+  text-decoration: none; 
+}
+.navbar a:hover{
+    color:#fff;
+}
+.navbar .icon{
+  font-size:18px;
+  vertical-align: center;
+}
+.nav-link{
+  font-size:12px;
+}
+@keyframes wipeEntry {
+    from {
+      height: 0;
+      padding:0;
+    }
+    to {
+      height: 100%;
+      padding:30px 0 50px 0;
+    }
+  }
+  
+.expanded-nav{
+    padding:30px 0 50px 0;
+    background-color: #181818;
+    min-height:200px;    
+    width:100vw;
+    z-index: 99999;
+  overflow: hidden;
+  white-space: nowrap; 
+  animation: wipeEntry 0.5s ease-in-out;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.expanded-nav-outer{
+    width:1050px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left:50px;
+    
+}
+.exp-nav.section{
+    display: flex !important;
+    flex-direction: column !important;
+}
+.exp-title{ 
+   color:#CECECF;
+   font-size: 12px;
+   font-weight:300;
+}
+.exp-nav-link{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+    font-size:22px;
+}
+.exp-main-section div{
+   padding:5px 0;
+}
+.exp-nav-section{
+    width:150px;
+}
+.exp-main-section{
+    width:200px;
+}
+.exp-sub-section a{
+    font-size:12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:#fff;
+ 
+}
+.exp-sub-section div{
+    padding:2px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes wipeExit {
+    from {
+      height: 350px;
+    }
+    to {
+      height: 0;
+    }
+  }
+  
+.expanded-nav-shrink{
+    background-color: #181818;
+    height:0px;
+    width:100vw;
+  overflow: hidden;
+  white-space: nowrap; /* This ensures that the content doesn't wrap to the next line */
+  animation: wipeExit 0.5s ease-in-out;
+}
