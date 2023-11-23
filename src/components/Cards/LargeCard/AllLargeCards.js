@@ -1,8 +1,7 @@
 import React from "react";
 import LargeCard from "./LargeCard";
 import iphone15 from "../../../assets/iphone_15_desktop.png";
-import macLap from "../../../assets/macbook-pro.png";
-import iphone15pro from "../../../assets/iphone-15-pro_overview__f8jz7aagka2q_og.png";
+import iphone15pro from "../../../assets/iphone15pro.png";
 function AllLargeCards() {
   return (
     <div>

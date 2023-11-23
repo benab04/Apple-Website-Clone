@@ -1,8 +1,8 @@
 import React from "react";
 import iMac from "../../../assets/iMac_large.jpg";
 import macLap from "../../../assets/macbook-pro.png";
-import ipad from "../../../assets/Apple-iPad-10th-gen-hero-221018.jpg.landing-big_2x.jpg";
-import watch_ultra2 from "../../../assets/Apple-Watch-Ultra-2-hero-230912_Full-Bleed-Image.jpg.large.jpg";
+import ipad from "../../../assets/ipadlarge.jpg";
+import watch_ultra2 from "../../../assets/watchultra2.jpg";
 import { FaApple } from "react-icons/fa";
 
 import "./AllSmallCards.css";
