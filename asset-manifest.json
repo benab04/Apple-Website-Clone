@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/Apple-Website-Clone/static/css/main.af384f2b.css",
-    "main.js": "/Apple-Website-Clone/static/js/main.8f8b02e0.js",
+    "main.css": "/Apple-Website-Clone/static/css/main.c3c918a7.css",
+    "main.js": "/Apple-Website-Clone/static/js/main.72192e3a.js",
     "static/js/787.dfc68368.chunk.js": "/Apple-Website-Clone/static/js/787.dfc68368.chunk.js",
     "static/media/iphone_15_desktop.png": "/Apple-Website-Clone/static/media/iphone_15_desktop.b97c8883c3daf2916b24.png",
-    "static/media/iphone-15-pro_overview__f8jz7aagka2q_og.png": "/Apple-Website-Clone/static/media/iphone-15-pro_overview__f8jz7aagka2q_og.e3b2e1e92860f88cb11e.png",
+    "static/media/iphone15pro.png": "/Apple-Website-Clone/static/media/iphone15pro.e3b2e1e92860f88cb11e.png",
+    "static/media/watchultra2.jpg": "/Apple-Website-Clone/static/media/watchultra2.f262491e3f3c2f728d1b.jpg",
+    "static/media/ipadlarge.jpg": "/Apple-Website-Clone/static/media/ipadlarge.c8928bf8eef4c43fa6e9.jpg",
     "static/media/macbook-pro.png": "/Apple-Website-Clone/static/media/macbook-pro.892c2bf695ebfe90370e.png",
+    "static/media/iMac_large.jpg": "/Apple-Website-Clone/static/media/iMac_large.64608d119334d6de760f.jpg",
     "index.html": "/Apple-Website-Clone/index.html",
-    "main.af384f2b.css.map": "/Apple-Website-Clone/static/css/main.af384f2b.css.map",
-    "main.8f8b02e0.js.map": "/Apple-Website-Clone/static/js/main.8f8b02e0.js.map",
+    "main.c3c918a7.css.map": "/Apple-Website-Clone/static/css/main.c3c918a7.css.map",
+    "main.72192e3a.js.map": "/Apple-Website-Clone/static/js/main.72192e3a.js.map",
     "787.dfc68368.chunk.js.map": "/Apple-Website-Clone/static/js/787.dfc68368.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af384f2b.css",
-    "static/js/main.8f8b02e0.js"
+    "static/css/main.c3c918a7.css",
+    "static/js/main.72192e3a.js"
   ]
 }
