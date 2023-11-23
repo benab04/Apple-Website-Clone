@@ -69,7 +69,7 @@ function Navbar() {
             setOn(false);
           }}
         >
-          <ExpNav />
+          <ExpNav on={expandNav} />
         </div>
       ) : null}
     </div>

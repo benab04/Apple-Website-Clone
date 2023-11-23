@@ -3,7 +3,7 @@
   .large-card{
     /* background-color: #FAFAFA; */
     background-repeat:no-repeat;
-    background-size: contain;
+    background-size: cover;
     height:580px;
     display: flex;
     flex-direction: column;
@@ -35,6 +35,10 @@
     font-size:20px;
     color:#3988D6 !important;
     text-decoration: none !important;
+}
+.product-options h4:hover{
+  text-decoration: underline;
+  color:#3988D6 !important;
 }
 .product-options h4{
     margin:0;

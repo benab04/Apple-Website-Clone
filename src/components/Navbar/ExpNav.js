@@ -1,8 +1,43 @@
-import React from "react";
-
-function ExpNav() {
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+function ExpNav({ on }) {
+  const on1 = on;
+  const [exp, switchOn] = useState(on1);
+  const containerVariants = {
+    expanded: {
+      height: "inherit",
+      transition: {
+        duration: 0.5,
+      },
+    },
+    collapsed: {
+      height: 0,
+      transition: {
+        duration: 2,
+      },
+    },
+  };
   return (
-    <div className="expanded-nav">
+    <motion.div
+      className="expanded-nav"
+      initial="collapsed"
+      animate={
+        exp
+          ? () => {
+              // console.log(exp);
+              return "expanded";
+            }
+          : () => {
+              console.log(exp);
+              return "collapsed";
+            }
+      }
+      onMouseLeave={() => {
+        switchOn(!on1);
+        console.log(exp);
+      }}
+      variants={containerVariants}
+    >
       <div className="expanded-nav-outer">
         <div className="exp-nav-section exp-main-section">
           <div>
@@ -75,7 +110,7 @@ function ExpNav() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
